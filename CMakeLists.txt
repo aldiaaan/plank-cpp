@@ -50,5 +50,5 @@ if(PLANK_BUILD_UNIT_TESTS)
     enable_testing()
     include(CTest)
 
-    add_subdirectory(tests)
+    add_subdirectory(unittests)
 endif()
