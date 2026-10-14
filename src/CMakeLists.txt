@@ -1,5 +1,5 @@
 add_executable(application
-    main.cpp
+    Application.cpp
 )
 
 target_link_libraries(application

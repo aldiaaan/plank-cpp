@@ -4,7 +4,7 @@ include(GoogleTest)
 
 add_executable(unit_tests "")
 
-add_subdirectory("graphics")
+add_subdirectory("Graphics")
 
 target_include_directories(unit_tests PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 

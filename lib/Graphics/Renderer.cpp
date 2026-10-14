@@ -1,5 +1,5 @@
 
-#include "plank/graphics/renderer.hpp"
+#include "plank/graphics/Renderer.hpp"
 
 namespace plank {
 namespace graphics {} // namespace graphics

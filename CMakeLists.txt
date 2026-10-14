@@ -43,7 +43,7 @@ FetchContent_Declare(
   GIT_TAG v1.18.0)
 FetchContent_GetProperties(googletest)
 
-add_subdirectory(libs)
+add_subdirectory(lib)
 add_subdirectory(src)
 
 if(PLANK_BUILD_UNIT_TESTS)

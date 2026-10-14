@@ -8,5 +8,5 @@ target_include_directories(
 
 set_target_properties(plank PROPERTIES LINKER_LANGUAGE CXX)
 
-add_subdirectory(math)
-add_subdirectory(graphics)
+add_subdirectory(Math)
+add_subdirectory(Graphics)
