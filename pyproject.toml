@@ -1,0 +1,17 @@
+[project]
+name = "plank"
+version = "0.1.0"
+description = "Boilerplate for making CXX application"
+requires-python = ">=3.13"
+dependencies = [
+    "pydantic>=2.14.0",
+    "questionary>=2.1.1",
+    "rich>=15.0.0",
+    "ruff>=0.17.0",
+    "typer>=0.27.3",
+]
+
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+extraPaths = [".", "src"]
